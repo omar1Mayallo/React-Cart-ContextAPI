@@ -1,0 +1,23 @@
+:root {
+  --re-identity: #009688;
+}
+*,
+*::after,
+*::before {
+  margin: 0;
+  box-sizing: border-box;
+}
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+.navbar-nav .nav-link.active {
+  color: var(--re-identity);
+}
+.slick-dots .slick-active {
+  color: var(--re-identity);
+}
